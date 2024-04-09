@@ -1,0 +1,22 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: spring-integration-cluster
+  data:
+    redis:
+      host: redis7.jtdev.pro
+      port: 63797
+      password: ""
+      database: 0
+      ssl:
+        enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

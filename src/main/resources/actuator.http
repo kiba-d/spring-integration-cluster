@@ -1,0 +1,17 @@
+GET http://localhost:8082/actuator
+Accept: application/json
+
+###
+GET http://localhost:8082/actuator/integrationgraph
+
+###
+GET http://localhost:8082/actuator/metrics
+
+###
+GET http://localhost:8082/actuator/metrics/spring.integration.channel.queue.size
+
+###
+GET http://localhost:8082/actuator/metrics/spring.integration.send
+
+###
+GET http://localhost:8082/actuator/metrics/spring.integration.channel.queue.remaining.capacity
